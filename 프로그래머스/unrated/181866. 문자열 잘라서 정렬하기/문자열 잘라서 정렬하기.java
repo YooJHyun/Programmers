@@ -11,10 +11,11 @@ class Solution {
         // 배열을 정렬한다
 		List<String> list = new ArrayList<String>();
 		
-		for (String str : arr) {
-			if (!str.isEmpty()) {
-				list.add(str);
-			}
+		for (int i = 0; i < arr.length; i++) {
+		    String str = arr[i];
+		    if (!str.isEmpty()) {
+		        list.add(str);
+		    }
 	    } // 배열의 원소가 비어있지 않다면 list에 추가한다
 
 		String answer[] = list.toArray(new String[list.size()]);
