@@ -1,10 +1,12 @@
 class Solution {
-    public int[] solution(int start, int end) {
-        int[] answer = new int[start - end + 1];
-        // answer의 범위를 지정해준다
-        for (int i = 0; i < answer.length; i++) {
-            answer[i] = start - i;
-        }   // start가 10이므로 1씩 증가하는 i를 빼면서 answer에 넣어준다
+    public int[] solution(int start_num, int end_num) {
+        int[] answer = new int[start_num - end_num + 1];
+		// answer의 길이는 start_num와 end_num의 차이에 1을 더한다
+        int j = 0;
+		for(int i = start_num; i >= end_num; i--) {
+			answer[j] += i;
+			j++;
+		} // answer에 차례대로 내림차순으로 넣어준다
         return answer;
     }
 }
