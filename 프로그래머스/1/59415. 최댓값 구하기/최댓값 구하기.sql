@@ -1,2 +1,4 @@
 -- 코드를 입력하세요
-SELECT DATETIME as 시간 FROM ANIMAL_INS ORDER BY DATETIME DESC LIMIT 1;
+SELECT DATETIME as 시간
+from (select * from ANIMAL_INS order by DATETIME desc)
+where rownum <=1;
