@@ -1,6 +1,6 @@
 # [level 3] 오랜 기간 보호한 동물(2) - 59411 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/59411?language=mysql) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/59411?language=oracle) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@ Empty
 
 ### 제출 일자
 
-2025년 02월 19일 23:58:21
+2025년 03월 12일 23:37:42
 
 ### 문제 설명
 
