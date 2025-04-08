@@ -1,10 +1,10 @@
 # [level 0] 세로 읽기 - 181904 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181904) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181904?language=javascript) 
 
 ### 성능 요약
 
-메모리: 83 MB, 시간: 12.76 ms
+메모리: 33.5 MB, 시간: 0.10 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 04월 08일 23:48:08
+2025년 04월 08일 23:49:03
 
 ### 문제 설명
 
